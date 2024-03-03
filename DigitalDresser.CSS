@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #9b2170;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 0 10px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #634c9c;
+    padding: 5px 10px;
+    }
+    
+    nav ul li a:hover {
+    background-color: #6496ba;
+    }
+    
+    section {
+    padding: 20px;
+    }
+    
+    footer {
+    background-color: #a04c8e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* Styles spécifiques aux sections */
+    #hommes h2,
+    #femmes h2,
+    #enfants h2 {
+    color: #b31a54;
+    }
+    
+    #homme-items,
+    #femme-items,
+    #enfant-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    .item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    }
+    
+    .item img {
+    max-width: 100%;
+    height: auto;
+    }
