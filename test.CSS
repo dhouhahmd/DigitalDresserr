@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Test CSS</title>
+
+<style>
+/* Votre code CSS ici */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #9b2170;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #634c9c;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #6496ba;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #a04c8e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Autres styles spécifiques */
+</style>
+</head>
+<body>
+<header>
+<h1>Test CSS</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="#">Test 1</a></li>
+<li><a href="#">Test 2</a></li>
+<li><a href="#">Test 3</a></li>
+</ul>
+</nav>
+
+<section>
+<h2>Section Test</h2>
+<p>Ceci est un paragraphe de test.</p>
+</section>
+
+<footer>
+<p>&copy; 2024 Test CSS</p>
+</footer>
+</body>
+</html>
